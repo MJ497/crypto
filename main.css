@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+header ul{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li a{
+    color: grey;
+}
+header ul li a:hover{
+    color: black;
+}
+.active{
+    color: black;
+    font-weight: 700;
+    text-decoration: underline red;
+}
+
+.search{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+.search input{
+    width: 88%;
+    height: 100%;
+    padding: 6px;
+}
+
+.search button{
+    padding: 9px 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.landing{
+    background-image: url(bitcoin.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero
+{
+    background-color: #01010184;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero h1{
+    font-size: 50px;
+    color: white;
+}
+ b{
+    color: red;
+}
+.hero p{
+    color: white;
+}
+.bt2{
+    padding: 10px 13px;
+    color:white;
+    background-color: red;
+}
+
+.dex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.dex h2{
+    font-size: 50px;
+}
+.dex h2 b{
+    color: red;
+}
+
+.dex div{
+    width: 100%;
+    height: 50%;
+   display: flex;
+   align-self: center;
+   justify-content: center;
+   gap: 15px;
+}
+
+.dex div .card{
+    width: 22%;
+    height: 100%;
+     /* box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.078); */
+     border: 1px solid rgba(0, 0, 0, 0.078);
+     border-radius: 18px;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+}
+
+.card i{
+    font-size: 35px;
+    color: red;
+}
+
+.card h3{
+    font-size: 20px;
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+
+ .dex .tokens{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tokens .tkn{
+    width: 20%;
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tkn span{
+    color: rgb(2, 253, 2);
+}
+
+.tkn span.low{
+    color: red;
+}
+
+ .dex .sponsors{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+   
+    
+}
+
+.sponsors h2{
+    color: rgba(11, 11, 11, 0.097);
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-content{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-content h2{
+    font-size: 20px;
+}
+.footer-content p{
+    font-size: 15px;
+   font-weight: 300;
+}
+.footer-content ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    
+}
+
+.footer-content ul li a{
+    color: white;
+}
+
+.footer-content input{
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.footer-content button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+
+table{
+    width: 100%;
+    height:auto ;
+    
+
+}
+
+th{
+    text-align: left;
+}
+
+.bit{
+display: flex;
+align-items: center;
+justify-content: start;
+
+}
+th ,  td ,tr{
+    border-bottom : 1px solid rgba(0, 0, 0, 0.065);
+    
+    padding: 18px;
+}
+
+.rise{
+    color: rgb(26, 243, 26);
+}
+
+.low{
+    color: red;
+}
+section.news{
+height: 300vh;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+padding: 20px;
+}
+ .news .card{
+    width: 70%;
+    height: auto;
+    padding : 20px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+border-radius: 20px;
+    /* box-shadow: 3px 3px 8px 3px rgba(0, 0, 0, 0.253); */
+    gap: 20px;
+
+}
+.news .card img{
+width: 100%;
+height: 600px;
+
+}
+.news .card span{
+    width: 100%;
+    height: auto;
+    padding: 6px;
+   
+    position: relative;
+}
+
+.news .card .proll{
+    width: 60px ;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url(bitcoin.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.news .card .likes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.likes i{
+    color: grey;
+    font-size: 18px;
+}
+.news .card h3{
+    font-size: 40px;
+   
+}
+.news .card p{
+    font-size: 13px;
+    text-align: left;
+}
+
+.former{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.former .socials{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+}
+.socials  ul{
+    
+    padding: 12px;
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 18px;
+}
+
+.socials ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 8px;
+}
+.socials ul li a i{
+    font-size: 28px;
+    color: grey;
+}
+
+.former form{
+    width: 30%;
+    height: 75%;
+    border-radius: 20px;
+    border: 1px solid #00000515;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 13px;
+}
+
+form span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+form span input{
+    width: 90%;
+    height: 40px;
+    border: 1px solid #00000515;
+    padding: 6px;
+}
+
+form textarea{
+    width: 90%;
+    height: 100px;
+    border: 1px solid #00000515;
+    padding: 6px;
+}
+label{
+    font-size: 14px;
+    font-weight: 300;
+}
+input[type='button']{
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
